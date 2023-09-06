@@ -34,7 +34,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  height: 4.2rem;
+  height: 5rem;
   padding: 0 3.2rem;
   background-color: #e7d307;
   border-radius: 0.9rem;
@@ -245,7 +245,7 @@ body {
 }
 
 .details img {
-  width: 33%;
+  width: 40%;
 }
 
 .details-overview {
