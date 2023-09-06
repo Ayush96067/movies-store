@@ -331,15 +331,15 @@ function WatchedSummary({ watched }) {
         </p>
         <p>
           <span>⭐️</span>
-          <span>{avgImdbRating.toFixed(2)}</span>
+          <span>{avgImdbRating.toFixed(2)} imdbRating </span>
         </p>
         <p>
           <span>⭐️</span>
-          <span>{avgUserRating.toFixed(2)}</span>
+          <span>{avgUserRating.toFixed(2)} useRating</span>
         </p>
         <p>
-          <span>⭐️</span>
-          <span>{avgRuntime} </span>
+          <span>⌛</span>
+          <span>{avgRuntime.toFixed(2)} Runtime</span>
         </p>
       </div>
     </div>
